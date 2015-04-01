@@ -25,9 +25,7 @@ public class Zip {
         boolean[] joined = new boolean[Math.min(y.length, z.length)];
 
         for (int i = 0; i < joined.length; i++) {
-            if (z[i] != 0 && (y[i] % z[i] == 0)) {
-                joined[i] = true;
-            }
+            joined[i] = (z[i] != 0 && (y[i] % z[i] == 0));
         }
         return joined;
     }
