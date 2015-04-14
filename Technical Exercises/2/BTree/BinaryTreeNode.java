@@ -1,10 +1,10 @@
 public class BinaryTreeNode {
 
-    private entry;
+    private String entry;
     private BinaryTreeNode left;
     private BinaryTreeNode right;
     
-    public BinaryTreeNode(String entry, BinaryTreeNode l, BinaryTreeNode r)
+    public BinaryTreeNode(String e, BinaryTreeNode l, BinaryTreeNode r)
     {
         entry = e;
         left = l;
