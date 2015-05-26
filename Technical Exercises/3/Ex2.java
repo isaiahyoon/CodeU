@@ -1,28 +1,7 @@
 import java.util.Arrays;
 
-class Exercises3 {
+class Ex2 {
 
-    // find word using binary search
-    // public static boolean isInDictionary(String word) {
-    //     if (TrivialDictionary.wordAt(0)) {
-
-    //     }
-
-    //     String word2 = TrivialDictionary.wordAt();
-    //     int comparison = word.compareTo(word2);
-    //     if (comparison > 0) {
-
-    //     } else if (comparison < 0) {
-    //         return isInDictionary
-    //     } else {
-    //         // word found
-    //         return word2;
-    //     }
-
-    // }
-
-
-    // Exercise 2
     public static boolean hasMajority(int[] nums) {
         // empty case
         if (nums.length == 0) {

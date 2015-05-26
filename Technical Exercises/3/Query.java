@@ -9,8 +9,8 @@ class Query {
         time = new Timestamp(Date.getTime());
     }
 
-    public String getQuery() {
-        return query;
+    public String getValueAtIndex(int i) {
+        return splitQuery[i];
     }
 
     public int getQueryLength() {
